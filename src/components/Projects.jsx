@@ -29,7 +29,7 @@ const Projects = () => {
             description: 'A unified URL shortening service featuring a single-file backend and vibrant, multi-themed frontend pages for different user states.',
             tech: ['Python', 'Flask', 'SQLAlchemy', 'JWT', 'Bootstrap 5'],
             impact: 'Combines independent themes (Midnight Nebula, Emerald Growth, Electric Ocean) into a single performance-oriented application.',
-            links: { github: 'https://github.com/Chandru484', demo: 'https://smartlink-yamd.onrender.com' }
+            links: { github: 'https://github.com/Chandru484/SmartLink', demo: 'https://smartlink-yamd.onrender.com' }
         }
     ]
 
@@ -121,6 +121,30 @@ const Projects = () => {
                                             {t}
                                         </span>
                                     ))}
+                                </div>
+
+                                {/* Mobile Links */}
+                                <div className="flex items-center gap-3 mt-6 lg:hidden">
+                                    <a
+                                        href={project.links.github}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl bg-slate-800 text-white font-medium border border-slate-700 hover:bg-slate-700 transition-colors"
+                                    >
+                                        <Github size={18} />
+                                        <span>Source</span>
+                                    </a>
+                                    {project.links.demo !== '#' && (
+                                        <a
+                                            href={project.links.demo}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl bg-primary text-white font-medium hover:bg-primary/90 transition-colors"
+                                        >
+                                            <ExternalLink size={18} />
+                                            <span>Demo</span>
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         </motion.div>
