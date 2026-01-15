@@ -55,6 +55,8 @@ const Navbar = () => {
                                 <a
                                     key={link.name}
                                     href={link.href}
+                                    target={link.target || "_self"}
+                                    rel={link.target === "_blank" ? "noopener noreferrer" : ""}
                                     className="text-slate-300 hover:text-primary transition-colors duration-200 text-sm font-medium"
                                 >
                                     {link.name}
@@ -110,6 +112,8 @@ const Navbar = () => {
                             <a
                                 key={link.name}
                                 href={link.href}
+                                target={link.target || "_self"}
+                                rel={link.target === "_blank" ? "noopener noreferrer" : ""}
                                 onClick={() => setIsOpen(false)}
                                 className="text-slate-300 hover:text-primary text-lg font-medium"
                             >

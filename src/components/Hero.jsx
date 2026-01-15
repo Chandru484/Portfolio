@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { ArrowRight, Download, Terminal } from 'lucide-react'
+import { ArrowRight, Terminal, Eye } from 'lucide-react'
 
 const Hero = () => {
     return (
@@ -51,14 +51,28 @@ const Hero = () => {
                             View Projects
                             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </motion.a>
-                        <motion.a
-                            href="#contact"
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="px-8 py-4 bg-slate-800 text-white rounded-full font-bold border border-slate-700 hover:bg-slate-700 transition-all flex items-center"
-                        >
-                            Contact Me
-                        </motion.a>
+
+                        <div className="flex space-x-4">
+                            <motion.a
+                                href="/S.Chandru.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="px-8 py-4 bg-slate-800 text-white rounded-full font-bold border border-slate-700 hover:bg-slate-700 transition-all flex items-center"
+                            >
+                                <Eye className="mr-2 w-5 h-5" />
+                                Resume
+                            </motion.a>
+                            <motion.a
+                                href="#contact"
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="px-8 py-4 bg-slate-800 text-white rounded-full font-bold border border-slate-700 hover:bg-slate-700 transition-all flex items-center"
+                            >
+                                Contact Me
+                            </motion.a>
+                        </div>
                     </div>
                 </motion.div>
 
