@@ -12,7 +12,7 @@ const About = () => {
         {
             icon: <Target className="w-6 h-6 text-secondary" />,
             title: 'Problem Solver',
-            description: 'Solved 100+ algorithmic problems on LeetCode with a focus on optimization.'
+            description: 'Solved 150+ algorithmic problems on LeetCode with a focus on optimization.'
         },
         {
             icon: <TrendingUp className="w-6 h-6 text-accent" />,

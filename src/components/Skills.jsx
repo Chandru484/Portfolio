@@ -27,9 +27,9 @@ const Skills = () => {
             title: 'Web Technologies',
             icon: <Globe className="w-5 h-5" />,
             skills: [
-                { name: 'HTML/CSS/JS', level: 85 },
+                { name: 'HTML/CSS/JS', level: 80 },
                 { name: 'ReactJS', level: 75 },
-                { name: 'Flask / FastAPI', level: 85 },
+                { name: 'Flask ', level: 85 },
             ]
         },
         {
@@ -38,14 +38,14 @@ const Skills = () => {
             skills: [
                 { name: 'NumPy / Pandas', level: 85 },
                 { name: 'Hugging Face / Transformers', level: 80 },
-                { name: 'Machine & Deep Learning', level: 85 },
+                { name: 'Machine & Deep Learning', level: 80 },
             ]
         },
         {
             title: 'Tools & Security',
             icon: <Database className="w-5 h-5" />,
             skills: [
-                { name: 'MySQL / PostgreSQL', level: 80 },
+                { name: 'MySQL', level: 85 },
                 { name: 'Git/GitHub', level: 90 },
                 { name: 'JWT / Authentication', level: 75 },
                 { name: 'Docker / Render', level: 70 },
@@ -149,7 +149,7 @@ const Skills = () => {
                 {/* Soft Skills Section */}
                 <div className="mt-20 pt-10 border-t border-slate-800/50">
                     <div className="flex flex-wrap justify-center gap-4">
-                        {['100+ LeetCode Solved', 'Team Player', 'Adaptability', 'Leadership', 'Critical Thinking'].map((skill, i) => (
+                        {['150+ LeetCode Solved', 'Team Player', 'Adaptability', 'Leadership', 'Critical Thinking'].map((skill, i) => (
                             <span key={i} className="px-5 py-2 rounded-full bg-slate-800/50 text-slate-300 border border-slate-700 text-sm font-medium animate-pulse hover:bg-slate-700 transition-colors">
                                 {skill}
                             </span>

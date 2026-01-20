@@ -18,7 +18,7 @@ const Projects = () => {
             subtitle: 'Inventory Management System',
             image: '/stock_master.png',
             description: 'A robust Flask-based inventory management system supporting multi-location product tracking, real-time movement logs, and reporting.',
-            tech: ['Python', 'Flask', 'SQLAlchemy', 'PostgreSQL', 'Bootstrap'],
+            tech: ['Python', 'Flask', 'SQLAlchemy', 'MySQL', 'Bootstrap'],
             impact: 'Full CRUD operations for products and locations with real-time movement tracking.',
             links: { github: 'https://github.com/Chandru484/Flask-Inventory-Management-System', demo: '#' }
         },
