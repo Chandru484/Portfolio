@@ -45,7 +45,7 @@ const Skills = () => {
             title: 'Tools & Security',
             icon: <Database className="w-5 h-5" />,
             skills: [
-                { name: 'MySQL', level: 85 },
+                { name: 'MySQL/MongoDB', level: 85 },
                 { name: 'Git/GitHub', level: 90 },
                 { name: 'JWT / Authentication', level: 75 },
                 { name: 'Docker / Render', level: 70 },
