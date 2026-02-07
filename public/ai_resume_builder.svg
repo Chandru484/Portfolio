@@ -1,0 +1,62 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" rx="12" fill="#0F172A"/>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="180" height="500" rx="12" fill="#1E293B" opacity="0.5"/>
+  <rect x="20" y="30" width="140" height="8" rx="4" fill="#334155"/>
+  <rect x="20" y="80" width="100" height="30" rx="6" fill="#38BDF8" opacity="0.1"/>
+  <rect x="40" y="90" width="60" height="10" rx="5" fill="#38BDF8"/>
+  <rect x="20" y="130" width="100" height="10" rx="5" fill="#334155"/>
+  <rect x="20" y="160" width="80" height="10" rx="5" fill="#334155"/>
+  <rect x="20" y="190" width="110" height="10" rx="5" fill="#334155"/>
+  
+  <!-- Main Content Area -->
+  <rect x="200" y="30" width="580" height="440" rx="8" fill="#1E293B"/>
+  
+  <!-- Resume Sheet -->
+  <rect x="280" y="60" width="300" height="380" rx="4" fill="white"/>
+  
+  <!-- Resume Profile Section -->
+  <rect x="300" y="80" width="260" height="40" rx="2" fill="#F8FAFC"/>
+  <circle cx="325" cy="100" r="15" fill="#E2E8F0"/>
+  <rect x="350" y="90" width="100" height="6" rx="3" fill="#94A3B8"/>
+  <rect x="350" y="104" width="60" height="4" rx="2" fill="#CBD5E1"/>
+  
+  <!-- Resume Content Lines -->
+  <rect x="300" y="140" width="120" height="8" rx="4" fill="#38BDF8" opacity="0.6"/>
+  <rect x="300" y="155" width="260" height="4" rx="2" fill="#E2E8F0"/>
+  <rect x="300" y="165" width="240" height="4" rx="2" fill="#E2E8F0"/>
+  <rect x="300" y="175" width="250" height="4" rx="2" fill="#E2E8F0"/>
+  
+  <rect x="300" y="200" width="100" height="8" rx="4" fill="#818CF8" opacity="0.6"/>
+  <rect x="300" y="215" width="260" height="4" rx="2" fill="#E2E8F0"/>
+  <rect x="300" y="225" width="220" height="4" rx="2" fill="#E2E8F0"/>
+  
+  <!-- AI Floating Cards -->
+  <!-- ATS Score Card -->
+  <rect x="620" y="60" width="140" height="100" rx="12" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+  <text x="690" y="90" text-anchor="middle" fill="#38BDF8" style="font-family: sans-serif; font-size: 12px; font-weight: bold;">ATS SCORE</text>
+  <text x="690" y="130" text-anchor="middle" fill="white" style="font-family: sans-serif; font-size: 32px; font-weight: bold;">95%</text>
+  <circle cx="690" cy="120" r="40" stroke="#38BDF8" stroke-width="4" stroke-dasharray="180 250" opacity="0.2"/>
+  
+  <!-- AI Suggestion Card -->
+  <rect x="620" y="180" width="140" height="120" rx="12" fill="#0F172A" stroke="#818CF8" stroke-width="1"/>
+  <path d="M640 205L650 215L640 225M665 215H645" stroke="#818CF8" stroke-width="2"/>
+  <text x="670" y="215" fill="#818CF8" style="font-family: sans-serif; font-size: 10px; font-weight: bold;">AI INSIGHT</text>
+  <rect x="640" y="235" width="100" height="4" rx="2" fill="#334155"/>
+  <rect x="640" y="245" width="100" height="4" rx="2" fill="#334155"/>
+  <rect x="640" y="255" width="80" height="4" rx="2" fill="#334155"/>
+  <rect x="640" y="275" width="60" height="15" rx="7.5" fill="#818CF8"/>
+  <text x="670" y="286" text-anchor="middle" fill="white" style="font-family: sans-serif; font-size: 8px; font-weight: bold;">OPTIMIZE</text>
+  
+  <!-- Floating Sparkles -->
+  <path d="M600 50L605 60L615 65L605 70L600 80L595 70L585 65L595 60L600 50Z" fill="#FDE047"/>
+  <path d="M220 100L223 106L229 109L223 112L220 118L217 112L211 109L217 106L220 100Z" fill="#38BDF8" opacity="0.6"/>
+  
+  <!-- Labels -->
+  <text x="400" y="485" text-anchor="middle" fill="#64748B" style="font-family: sans-serif; font-size: 12px; letter-spacing: 0.2em; font-weight: bold;">AI RESUME BUILDER DASHBOARD</text>
+  
+  <!-- Glassmorphism overlay for extra flair -->
+  <rect x="200" y="30" width="580" height="60" fill="white" opacity="0.03"/>
+</svg>

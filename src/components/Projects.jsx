@@ -5,6 +5,15 @@ import { Github, ExternalLink, Code, Layers } from 'lucide-react'
 const Projects = () => {
     const projects = [
         {
+            title: 'AI Resume Builder',
+            subtitle: 'AI-Powered Resume Ecosystem',
+            image: '/ai_resume_builder.svg',
+            description: 'A full-stack platform for creating ATS-compliant resumes with real-time editing, parsing, scoring, and job matching using Groq LLM.',
+            tech: ['React', 'Firebase', 'Groq AI', 'Node.js', 'ImageKit', 'Tailwind'],
+            impact: 'Enabled ultra-low latency AI resume parsing and real-time career optimization for job seekers.',
+            links: { github: 'https://github.com/Chandru484/Resume-Builder.git', demo: '#' }
+        },
+        {
             title: 'AI Terms & Conditions Summarizer',
             subtitle: 'Simplifying Legal Jargon with AI',
             image: '/ai_summarizer.png',
@@ -23,13 +32,13 @@ const Projects = () => {
             links: { github: 'https://github.com/Chandru484/Flask-Inventory-Management-System', demo: '#' }
         },
         {
-            title: 'SmartLink Unified',
-            subtitle: 'Sleek URL Shortener',
-            image: '/smartlink.png',
-            description: 'A unified URL shortening service featuring a single-file backend and vibrant, multi-themed frontend pages for different user states.',
-            tech: ['Python', 'Flask', 'SQLAlchemy', 'JWT', 'Bootstrap 5'],
-            impact: 'Combines independent themes (Midnight Nebula, Emerald Growth, Electric Ocean) into a single performance-oriented application.',
-            links: { github: 'https://github.com/Chandru484/SmartLink', demo: 'https://smartlink-yamd.onrender.com' }
+            title: 'AI Course Generator',
+            subtitle: 'AI-Powered Education Platform',
+            image: '/ai_course_generator.svg',
+            description: 'A comprehensive full-stack application for creating AI-powered educational courses with multimedia integration and YouTube support.',
+            tech: ['Next.js 14', 'TypeScript', 'Tailwind', 'Clerk', 'Firebase', 'OpenAI'],
+            impact: 'Automated course structure generation and content synthesis with integrated video and image assets.',
+            links: { github: 'https://github.com/Chandru484/Ai-Course-Generator.git', demo: '#' }
         }
     ]
 

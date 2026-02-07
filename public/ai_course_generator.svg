@@ -1,0 +1,52 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" rx="12" fill="#0F172A"/>
+  
+  <!-- Gradient Background Glow -->
+  <defs>
+    <linearGradient id="glow" x1="400" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#EF4444" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="12" fill="url(#glow)"/>
+  <rect width="800" height="500" rx="12" fill="url(#accent)"/>
+
+  <!-- Application Window -->
+  <rect x="100" y="50" width="600" height="380" rx="10" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  <rect x="100" y="50" width="600" height="40" rx="10 10 0 0" fill="#334155"/>
+  <circle cx="125" cy="70" r="5" fill="#EF4444"/>
+  <circle cx="145" cy="70" r="5" fill="#F59E0B"/>
+  <circle cx="165" cy="70" r="5" fill="#10B981"/>
+
+  <!-- Course Card Layout -->
+  <rect x="140" y="110" width="160" height="200" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1" opacity="0.8"/>
+  <rect x="150" y="125" width="140" height="80" rx="4" fill="#1E293B"/>
+  <path d="M220 165L200 175V155L220 165Z" fill="#38BDF8"/>
+  <rect x="150" y="220" width="100" height="8" rx="4" fill="#334155"/>
+  <rect x="150" y="235" width="60" height="6" rx="3" fill="#334155"/>
+  
+  <rect x="320" y="110" width="160" height="200" rx="8" fill="#0F172A" stroke="#818CF8" stroke-width="1" opacity="0.8"/>
+  <rect x="330" y="125" width="140" height="80" rx="4" fill="#1E293B"/>
+  <circle cx="400" cy="165" r="15" stroke="#818CF8" stroke-width="2" stroke-dasharray="4 4"/>
+  <rect x="330" y="220" width="100" height="8" rx="4" fill="#334155"/>
+  <rect x="330" y="235" width="60" height="6" rx="3" fill="#334155"/>
+
+  <rect x="500" y="110" width="160" height="200" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-width="1" opacity="0.8"/>
+  <rect x="510" y="125" width="140" height="80" rx="4" fill="#1E293B"/>
+  <rect x="530" y="160" width="100" height="10" rx="5" fill="#F59E0B" opacity="0.3"/>
+  <rect x="510" y="220" width="100" height="8" rx="4" fill="#334155"/>
+  <rect x="510" y="235" width="60" height="6" rx="3" fill="#334155"/>
+
+  <!-- AI Elements -->
+  <path d="M400 340L410 360L430 365L415 380L420 400L400 390L380 400L385 380L370 365L390 360L400 340Z" fill="#FDE047" opacity="0.8"/>
+  <text x="400" y="420" text-anchor="middle" fill="#94A3B8" style="font-family: sans-serif; font-size: 14px; font-weight: bold; letter-spacing: 0.1em;">AI COURSE GENERATOR</text>
+
+  <!-- Sparkles -->
+  <path d="M150 350L155 360L165 365L155 370L150 380L145 370L135 365L145 360L150 350Z" fill="#38BDF8" opacity="0.5"/>
+  <path d="M650 100L655 110L665 115L655 120L650 130L645 120L635 115L645 110L650 100Z" fill="#818CF8" opacity="0.5"/>
+</svg>
