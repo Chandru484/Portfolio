@@ -20,7 +20,7 @@ const Projects = () => {
             description: 'An AI-powered system designed to summarize lengthy and complex terms and conditions into concise, readable points using transformer models.',
             tech: ['Python', 'FastAPI', 'Hugging Face', 'BART', 'T5'],
             impact: 'Improved user understanding by 80% with 90% summarization accuracy.',
-            links: { github: 'https://github.com/Chandru484/termsandconditions-summarizer', demo: '#' }
+            links: { github: 'https://github.com/Chandru484/termsandconditions-summarizer', demo: 'https://69837295d033e7359cd5b8cc--termsandconditionssummarizer.netlify.app/' }
         },
         {
             title: 'StockMaster',
