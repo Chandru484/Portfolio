@@ -7,8 +7,8 @@ const Education = () => {
         {
             degree: 'B.Tech – Artificial Intelligence and Data Science',
             institution: 'Erode Sengunthar Engineering College, Erode',
-            period: '2022 – Present',
-            score: 'CGPA: 8.5',
+            period: '2022 – 2026',
+            score: 'CGPA: 8.49',
             icon: <GraduationCap className="w-6 h-6" />
         },
         {

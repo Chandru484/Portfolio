@@ -1,0 +1,36 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="36" fill="#07111f"/>
+  <rect x="70" y="70" width="1060" height="610" rx="28" fill="#0f172a" stroke="#243044" stroke-width="2"/>
+  <rect x="108" y="112" width="984" height="82" rx="18" fill="#111c31"/>
+  <circle cx="144" cy="153" r="10" fill="#ef4444"/>
+  <circle cx="176" cy="153" r="10" fill="#f59e0b"/>
+  <circle cx="208" cy="153" r="10" fill="#22c55e"/>
+  <text x="258" y="162" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">AI Stock Price Predictor</text>
+  <rect x="108" y="232" width="300" height="350" rx="22" fill="#081323" stroke="#1e293b" stroke-width="2"/>
+  <text x="142" y="286" fill="#38bdf8" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Recommendation</text>
+  <circle cx="258" cy="392" r="82" fill="#16a34a" fill-opacity="0.16" stroke="#22c55e" stroke-width="6"/>
+  <text x="214" y="381" fill="#86efac" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">BUY</text>
+  <text x="204" y="424" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">82% confidence</text>
+  <rect x="146" y="507" width="224" height="18" rx="9" fill="#1e293b"/>
+  <rect x="146" y="507" width="184" height="18" rx="9" fill="#22c55e"/>
+  <rect x="448" y="232" width="644" height="350" rx="22" fill="#081323" stroke="#1e293b" stroke-width="2"/>
+  <line x1="500" y1="522" x2="1040" y2="522" stroke="#334155" stroke-width="2"/>
+  <line x1="500" y1="292" x2="500" y2="522" stroke="#334155" stroke-width="2"/>
+  <path d="M510 485 C590 438 620 455 684 390 C742 331 786 360 842 306 C900 250 970 278 1034 246" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M510 492 C588 470 638 488 686 445 C736 400 780 420 834 382 C908 330 962 352 1034 316" stroke="#22c55e" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 16"/>
+  <path d="M520 420 L552 420 L552 468 L520 468 Z" fill="#0ea5e9" fill-opacity="0.75"/>
+  <path d="M592 374 L624 374 L624 468 L592 468 Z" fill="#22c55e" fill-opacity="0.75"/>
+  <path d="M664 402 L696 402 L696 468 L664 468 Z" fill="#0ea5e9" fill-opacity="0.75"/>
+  <path d="M736 340 L768 340 L768 468 L736 468 Z" fill="#22c55e" fill-opacity="0.75"/>
+  <path d="M808 318 L840 318 L840 468 L808 468 Z" fill="#0ea5e9" fill-opacity="0.75"/>
+  <path d="M880 286 L912 286 L912 468 L880 468 Z" fill="#22c55e" fill-opacity="0.75"/>
+  <path d="M952 260 L984 260 L984 468 L952 468 Z" fill="#0ea5e9" fill-opacity="0.75"/>
+  <rect x="448" y="610" width="146" height="34" rx="17" fill="#12243a"/>
+  <text x="482" y="633" fill="#93c5fd" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">LSTM</text>
+  <rect x="616" y="610" width="146" height="34" rx="17" fill="#123223"/>
+  <text x="654" y="633" fill="#86efac" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">GRU</text>
+  <rect x="784" y="610" width="146" height="34" rx="17" fill="#332414"/>
+  <text x="812" y="633" fill="#fcd34d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">XGBoost</text>
+  <rect x="952" y="610" width="140" height="34" rx="17" fill="#2a1835"/>
+  <text x="978" y="633" fill="#d8b4fe" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Forecast</text>
+</svg>

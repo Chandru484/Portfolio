@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { User, Target, TrendingUp, Cpu } from 'lucide-react'
 
-const About = () => {
+export default function About() {
     const highlights = [
         {
             icon: <Cpu className="w-6 h-6 text-primary" />,
@@ -12,12 +12,17 @@ const About = () => {
         {
             icon: <Target className="w-6 h-6 text-secondary" />,
             title: 'Problem Solver',
-            description: 'Solved 150+ algorithmic problems on LeetCode with a focus on optimization.'
+            description: 'Solved 200+ algorithmic problems on LeetCode with a focus on optimization.'
         },
         {
             icon: <TrendingUp className="w-6 h-6 text-accent" />,
             title: 'Growth Mindset',
             description: 'Committed to continuous learning and staying ahead of technology trends.'
+        },
+        {
+            icon: <User className="w-6 h-6 text-primary" />,
+            title: 'Full Stack Builder',
+            description: 'Building responsive web apps with React, Flask, REST APIs, and clean UI flows.'
         }
     ]
 
@@ -66,7 +71,7 @@ const About = () => {
                             About Me
                         </h2>
                         <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                            AI Enthusiast & <span className="text-secondary">Full Stack Developer</span>
+                            AI / ML Enthusiast & <span className="text-secondary">Full Stack Developer</span>
                         </h3>
                         <p className="text-lg text-slate-400 mb-8 leading-relaxed">
                             I am a passionate student currently pursuing my B.Tech in Artificial Intelligence and Data Science at Erode Sengunthar Engineering College.
@@ -92,4 +97,3 @@ const About = () => {
     )
 }
 
-export default About

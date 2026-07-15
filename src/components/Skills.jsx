@@ -37,6 +37,9 @@ const Skills = () => {
             icon: <BrainCircuit className="w-5 h-5" />,
             skills: [
                 { name: 'NumPy / Pandas', level: 85 },
+                { name: 'Scikit-learn', level: 82 },
+                { name: 'TensorFlow / Keras', level: 80 },
+                { name: 'XGBoost', level: 78 },
                 { name: 'Hugging Face / Transformers', level: 80 },
                 { name: 'Machine & Deep Learning', level: 80 },
             ]
@@ -149,7 +152,7 @@ const Skills = () => {
                 {/* Soft Skills Section */}
                 <div className="mt-20 pt-10 border-t border-slate-800/50">
                     <div className="flex flex-wrap justify-center gap-4">
-                        {['150+ LeetCode Solved', 'Team Player', 'Adaptability', 'Leadership', 'Critical Thinking'].map((skill, i) => (
+                        {['200+ LeetCode Solved', 'Team Player', 'Adaptability', 'Leadership', 'Critical Thinking'].map((skill, i) => (
                             <span key={i} className="px-5 py-2 rounded-full bg-slate-800/50 text-slate-300 border border-slate-700 text-sm font-medium animate-pulse hover:bg-slate-700 transition-colors">
                                 {skill}
                             </span>

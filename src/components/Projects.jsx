@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Github, ExternalLink, Code, Layers } from 'lucide-react'
 
-const Projects = () => {
+export default function Projects() {
     const projects = [
         {
             title: 'AI Resume Builder',
@@ -12,6 +12,15 @@ const Projects = () => {
             tech: ['React', 'Firebase', 'Groq AI', 'Node.js', 'ImageKit', 'Tailwind'],
             impact: 'Enabled ultra-low latency AI resume parsing and real-time career optimization for job seekers.',
             links: { github: 'https://github.com/Chandru484/Resume-Builder.git', demo: '#' }
+        },
+        {
+            title: 'AI Stock Price Predictor',
+            subtitle: 'ML-Powered Financial Forecasting',
+            image: '/ai_stock_predictor.svg',
+            description: 'An end-to-end Flask dashboard that forecasts stock prices using live Yahoo Finance data, uploaded datasets, technical indicators, and multiple ML/DL models.',
+            tech: ['Python', 'Flask', 'TensorFlow', 'Keras', 'Scikit-learn', 'XGBoost', 'yFinance', 'Chart.js'],
+            impact: 'Built a 7-day forecasting pipeline with model comparison, market trend analysis, risk scoring, and Buy/Hold/Sell recommendations.',
+            links: { github: 'https://github.com/Chandru484/Ai-Stock-Predictor', demo: '#' }
         },
         {
             title: 'AI Terms & Conditions Summarizer',
@@ -164,4 +173,3 @@ const Projects = () => {
     )
 }
 
-export default Projects

@@ -7,7 +7,7 @@ const Experience = () => {
         {
             company: 'CubeAI Solutions',
             role: 'AI/ML Intern',
-            period: 'September 2025 – Present',
+            period: 'September 2025 – January 2026',
             location: 'Remote/Hybrid',
             description: [
                 'Developed and trained machine learning models for real-world problems.',
