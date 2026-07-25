@@ -5,11 +5,20 @@ import { Github, ExternalLink, Code, Layers } from 'lucide-react'
 export default function Projects() {
     const projects = [
         {
+            title: 'RAG Document Chatbot',
+            subtitle: 'Document AI with Memory & Citations',
+            image: '/rag_document_chatbot.svg',
+            description: 'A production-ready chatbot that lets users upload PDFs and ask grounded, multi-turn questions with conversational memory and inspectable source citations.',
+            tech: ['Python', 'FastAPI', 'Streamlit', 'FAISS', 'fastembed', 'Groq', 'Docker'],
+            impact: 'Achieved 86.7% top-k retrieval accuracy with local ONNX embeddings, document vector deletion, and cited answers tied to uploaded PDFs.',
+            links: { github: 'https://github.com/Chandru484/RAG-Document-Chatbot', demo: 'https://rag-document-chatbot1234.streamlit.app/' }
+        },
+        {
             title: 'AI Resume Builder',
             subtitle: 'AI-Powered Resume Ecosystem',
             image: '/ai_resume_builder.svg',
             description: 'A full-stack platform for creating ATS-compliant resumes with real-time editing, parsing, scoring, and job matching using Groq LLM.',
-            tech: ['React', 'Firebase', 'Groq AI', 'Node.js', 'ImageKit', 'Tailwind'],
+            tech: ['React', 'Vite', 'Tailwind', 'Node.js', 'Express.js', 'Firebase Auth', 'Firestore', 'Groq API', 'ImageKit', 'Multer'],
             impact: 'Enabled ultra-low latency AI resume parsing and real-time career optimization for job seekers.',
             links: { github: 'https://github.com/Chandru484/Resume-Builder.git', demo: '#' }
         },
@@ -27,7 +36,7 @@ export default function Projects() {
             subtitle: 'Simplifying Legal Jargon with AI',
             image: '/ai_summarizer.png',
             description: 'An AI-powered system designed to summarize lengthy and complex terms and conditions into concise, readable points using transformer models.',
-            tech: ['Python', 'FastAPI', 'Hugging Face', 'BART', 'T5'],
+            tech: ['Python', 'FastAPI', 'Hugging Face', 'BART', 'T5', 'PyTorch', 'Groq API', 'NLP'],
             impact: 'Improved user understanding by 80% with 90% summarization accuracy.',
             links: { github: 'https://github.com/Chandru484/termsandconditions-summarizer', demo: 'https://69837295d033e7359cd5b8cc--termsandconditionssummarizer.netlify.app/' }
         },
