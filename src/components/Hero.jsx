@@ -93,9 +93,8 @@ const Hero = () => {
                             </div>
                         </div>
                         <div className="font-mono text-sm text-left text-slate-300 space-y-1">
-                            <p><span className="text-emerald-400">➜</span> <span className="text-primary">skillset</span> git branch <span className="text-slate-500"># main</span></p>
                             <p><span className="text-emerald-400">➜</span> <span className="text-primary">specialization</span> AI & Data Science</p>
-                            <p><span className="text-emerald-400">➜</span> <span className="text-primary">tech_stack</span> Python, Flask, React, SQL, ML, DL</p>
+                            <p><span className="text-emerald-400">➜</span> <span className="text-primary">skillset</span> Python, FastAPI, Flask, Machine Learning, Deep Learning, React, SQL, MongoDB</p>
                             <p><span className="text-emerald-400">➜</span> <span className="text-primary">mission</span> Build intelligent systems for complex problems</p>
                             <p className="animate-pulse"><span className="text-emerald-400">➜</span> <span className="bg-slate-700 text-slate-700">_</span></p>
                         </div>

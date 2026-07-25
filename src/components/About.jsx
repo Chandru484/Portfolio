@@ -71,14 +71,16 @@ export default function About() {
                             About Me
                         </h2>
                         <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                            AI / ML Enthusiast & <span className="text-secondary">Full Stack Developer</span>
+                            AI/ML Engineer & <span className="text-secondary">Python Developer</span>
                         </h3>
                         <p className="text-lg text-slate-400 mb-8 leading-relaxed">
-                            I am a passionate student currently pursuing my B.Tech in Artificial Intelligence and Data Science at Erode Sengunthar Engineering College.
-                            With a CGPA of 8.5, I've developed a strong foundation in both the theoretical and practical aspects of modern computing.
+                            I am a <strong className="text-slate-300">B.Tech graduate in Artificial Intelligence and Data Science</strong> with a passion for building intelligent, scalable, and AI-driven applications. My interests include <strong className="text-slate-300">Machine Learning, Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and Python development</strong>.
+                        </p>
+                        <p className="text-lg text-slate-400 mb-8 leading-relaxed">
+                            I enjoy transforming ideas into real-world solutions using <strong className="text-slate-300">Python, FastAPI, SQL, and modern AI frameworks</strong>. Through hands-on projects, I have developed AI-powered applications, REST APIs, and end-to-end software solutions while continuously exploring emerging technologies such as <strong className="text-slate-300">AI Agents, LangChain, and Prompt Engineering</strong>.
                         </p>
                         <p className="text-lg text-slate-400 mb-10 leading-relaxed">
-                            My journey is driven by a curiosity to understand how data can be leveraged to create intelligent systems. I am currently **actively looking for full-time roles and internship opportunities** where I can contribute my problem-solving skills and passion for AI.
+                            I am currently seeking <strong className="text-slate-300">full-time opportunities</strong> where I can contribute to innovative AI products, solve real-world challenges, and grow as an <strong className="text-slate-300">AI/ML Engineer or Python Developer</strong>.
                         </p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-6">

@@ -157,7 +157,7 @@ const Contact = () => {
                                         <input
                                             type="text"
                                             name="name"
-                                            placeholder="John Doe"
+                                            placeholder="Your name"
                                             value={formData.name}
                                             onChange={handleChange}
                                             required
@@ -169,7 +169,7 @@ const Contact = () => {
                                         <input
                                             type="email"
                                             name="email"
-                                            placeholder="john@example.com"
+                                            placeholder="you@company.com"
                                             value={formData.email}
                                             onChange={handleChange}
                                             required
@@ -183,7 +183,7 @@ const Contact = () => {
                                     <input
                                         type="text"
                                         name="subject"
-                                        placeholder="Project Inquiry"
+                                        placeholder="AI project, Python role, or collaboration"
                                         value={formData.subject}
                                         onChange={handleChange}
                                         required
@@ -196,7 +196,7 @@ const Contact = () => {
                                     <textarea
                                         name="message"
                                         rows="5"
-                                        placeholder="How can I help you?"
+                                        placeholder="Tell me what you are building, hiring for, or want to discuss."
                                         value={formData.message}
                                         onChange={handleChange}
                                         required
